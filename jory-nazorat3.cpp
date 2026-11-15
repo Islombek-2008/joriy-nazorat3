@@ -190,8 +190,8 @@ int main(){
 */
 
 int masala12(int n, int natija = 0){
-    if(n == 0) return natija;                      // to'xtash sharti
-    return masala12(n / 10, natija * 10 + n % 10);  // rekursiv chaqiruv
+    if(n == 0) return natija;                      
+    return masala12(n / 10, natija * 10 + n % 10);
 }
 
 int main(){
